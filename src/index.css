@@ -1,0 +1,26 @@
+*{
+  font-family: "Rubik", sans-serif;
+  color: #393c41;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+@keyframes animateArrow {
+  0%,20%,50%,70%,100%{
+    transform: translateY(0);
+  }
+  40%{
+    transform: translateY(5px);
+  }
+  60%{
+    transform: translateY(3px);
+  }
+}
